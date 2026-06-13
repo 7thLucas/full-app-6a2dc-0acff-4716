@@ -1,0 +1,43 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-left { width: 52%; }
+  .mode-landscape .sl-right { width: 48%; }
+  .mode-portrait .sl-left { flex: 1; }
+  .mode-portrait .sl-right { height: 40%; min-height: 0; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: content column -->
+    <div class="sl-left flex flex-col justify-between p-12 bg-white z-10">
+      <div>
+        <div class="flex items-center gap-3 mb-8">
+          <div class="w-8 h-px" style="background:#B45309;"></div>
+          <span class="text-xs font-semibold uppercase tracking-widest" style="color:#B45309;">Luxury · Curated · Authentic</span>
+        </div>
+        <h1 class="text-slate-900 font-bold leading-none" style="font-size:3.1rem;line-height:1.05;">
+          Curated<br>Luxury,<br>Perfected.
+        </h1>
+        <p class="text-slate-500 text-base leading-relaxed mt-6" style="max-width:20rem;">
+          Discover, collect, and acquire the world's finest watches and wallets — in one elegantly designed space.
+        </p>
+      </div>
+      <div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Right: hero image -->
+    <div class="sl-right relative overflow-hidden">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=luxury%20rolex%20watch%20and%20dark%20brown%20leather%20wallet%20editorial%20flat%20lay%20dark%20slate%20surface%20warm%20gold%20accents%20minimal%20premium%20photography%20high%20contrast"
+        alt="Luxury watch and wallet editorial"
+        class="w-full h-full object-cover"
+      />
+      <!-- Bleed gradient from white content area into image -->
+      <div class="absolute inset-y-0 left-0 w-28" style="background:linear-gradient(to right,white,transparent);"></div>
+    </div>
+
+  </div>
+</section>
