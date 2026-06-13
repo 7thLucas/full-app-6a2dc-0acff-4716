@@ -1,7 +1,7 @@
-# Sylph — Luxury Watch & Wallet App
+# Renard's — Luxury Watch & Wallet App
 
 ## Product
-**Sylph** is a premium demand-generation platform for luxury watches and wallets — connecting high-end sellers directly with high-income buyers (athletes, musicians, and Hollywood millionaires) through a curated, editorial-grade mobile experience. The name signals the brand promise: quiet, rare, and expensive — restrained luxury by invitation, never loud.
+**Renard's** is a premium demand-generation platform for luxury watches and wallets — connecting high-end sellers directly with high-income buyers (athletes, musicians, and Hollywood millionaires) through a curated, editorial-grade mobile experience. The name signals the brand promise: quiet, rare, and expensive — restrained luxury by invitation, never loud. (*Renard* is French for fox — a knowing, understated reference that rewards those who recognise it.)
 
 ## Users
 - **Athletes & Musicians** — high-income earners who treat luxury watches and wallets as personal statements and status signals; brand-conscious, impulse-capable, and deeply image-aware
