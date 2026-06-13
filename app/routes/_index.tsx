@@ -53,9 +53,9 @@ export default function HomePage() {
   return (
     <PageLayout topTransparent className="pt-0">
       {/* Hero Section */}
-      <section className="relative min-h-[85vh] flex flex-col justify-end bg-[#0D0D0F] overflow-hidden">
+      <section className="relative min-h-[85vh] flex flex-col justify-end bg-[#5B21B6] overflow-hidden">
         {/* Background image / gradient */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0D0D0F]/30 via-[#0D0D0F]/20 to-[#0D0D0F]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#5B21B6]/30 via-[#5B21B6]/20 to-[#3B1A7A]" />
         <div
           className="absolute inset-0 bg-cover bg-center opacity-30"
           style={{
@@ -77,7 +77,7 @@ export default function HomePage() {
           <div className="flex gap-3">
             <Link
               to="/catalog"
-              className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-sm text-sm font-medium tracking-wide hover:bg-primary/90 transition-colors"
+              className="inline-flex items-center gap-2 bg-[#800020] text-white px-5 py-2.5 rounded-sm text-sm font-medium tracking-wide hover:bg-[#9A0028] transition-colors"
             >
               Explore Collection
             </Link>

@@ -22,11 +22,11 @@ export function BottomNav() {
   const location = useLocation();
   const { config } = useConfigurables();
 
-  const goldColor = config?.brandColor?.primary ?? "#C9A96E";
+  const goldColor = config?.brandColor?.primary ?? "#C9A23A";
 
   return (
     <nav
-      className="fixed bottom-0 left-0 right-0 z-50 bg-[#111114] border-t border-border"
+      className="fixed bottom-0 left-0 right-0 z-50 bg-[#2D1060] border-t border-border"
       style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
     >
       <div className="flex items-center justify-around px-2 py-3">
@@ -82,7 +82,7 @@ export function TopBar({
         "fixed top-0 left-0 right-0 z-40 flex items-center justify-between px-4 h-14",
         transparent
           ? "bg-transparent"
-          : "bg-[#111114]/90 backdrop-blur-md border-b border-border/50"
+          : "bg-[#2D1060]/90 backdrop-blur-md border-b border-border/50"
       )}
       style={{ paddingTop: "env(safe-area-inset-top)" }}
     >

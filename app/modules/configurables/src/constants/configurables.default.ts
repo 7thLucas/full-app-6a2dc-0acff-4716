@@ -45,9 +45,9 @@ export const defaultConfigurablesData: TDefaultConfigurableData = {
   appName: "Renard's",
   logoUrl: "FILL_LOGO_URL_HERE",
   brandColor: {
-    primary: "#C9A96E",
-    secondary: "#1A1A1E",
-    accent: "#B8966A",
+    primary: "#C9A23A",
+    secondary: "#4A2490",
+    accent: "#800020",
   },
   tagline: "Rare. Restrained. Yours.",
   aboutText:

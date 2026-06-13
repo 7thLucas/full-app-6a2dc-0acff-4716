@@ -122,7 +122,7 @@ export default function EditorialDetailPage() {
           alt={editorial.headline}
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0D0D0F]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#3B1A7A]" />
       </div>
 
       {/* Content */}
@@ -174,7 +174,7 @@ export default function EditorialDetailPage() {
           <p className="text-xs text-muted-foreground mb-4">Explore the collection</p>
           <Link
             to={`/catalog?brand=${editorial.brand}`}
-            className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-sm text-sm font-medium tracking-wide hover:bg-primary/90 transition-colors"
+            className="inline-flex items-center gap-2 bg-[#800020] text-white px-5 py-2.5 rounded-sm text-sm font-medium tracking-wide hover:bg-[#9A0028] transition-colors"
           >
             View {editorial.brand} Pieces
           </Link>

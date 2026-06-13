@@ -69,7 +69,7 @@ export default function ProfilePage() {
           </p>
           <Link
             to="/auth/login"
-            className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-sm text-sm font-medium tracking-wide hover:bg-primary/90 transition-colors"
+            className="inline-flex items-center gap-2 bg-[#800020] text-white px-6 py-3 rounded-sm text-sm font-medium tracking-wide hover:bg-[#9A0028] transition-colors"
           >
             Sign In
           </Link>

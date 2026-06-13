@@ -106,7 +106,7 @@ function EditorialHeroCard({ editorial }: { editorial: typeof EDITORIALS[0] }) {
           alt={editorial.headline}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0F] via-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#3B1A7A] via-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-4">
           <p className="text-[9px] text-primary tracking-widest uppercase mb-1">
             {editorial.brand}

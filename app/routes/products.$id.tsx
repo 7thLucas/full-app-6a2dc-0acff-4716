@@ -233,7 +233,7 @@ export default function ProductDetailPage() {
           <p className="text-[10px] text-primary tracking-widest uppercase mb-1">{product.brand}</p>
           <h1 className="text-2xl font-serif text-foreground mb-2">{product.name}</h1>
           <div className="flex items-baseline justify-between">
-            <span className="text-xl font-medium text-primary">
+            <span className="text-xl font-medium text-[#800020]">
               {product.priceLabel || formatPrice(product.price)}
             </span>
             <span className="text-xs text-muted-foreground">{product.condition}</span>
@@ -392,12 +392,12 @@ export default function ProductDetailPage() {
       {/* Fixed bottom actions */}
       {!showInquiryForm && !actionData?.success && (
         <div
-          className="fixed bottom-0 left-0 right-0 bg-[#111114]/95 backdrop-blur-md border-t border-border px-4 py-4 space-y-2"
+          className="fixed bottom-0 left-0 right-0 bg-[#2D1060]/95 backdrop-blur-md border-t border-border px-4 py-4 space-y-2"
           style={{ paddingBottom: "max(1rem, env(safe-area-inset-bottom))" }}
         >
           <button
             onClick={() => setShowInquiryForm(true)}
-            className="w-full py-3.5 bg-primary text-primary-foreground rounded-sm text-sm font-medium tracking-wide hover:bg-primary/90 transition-colors"
+            className="w-full py-3.5 bg-[#800020] text-white rounded-sm text-sm font-medium tracking-wide hover:bg-[#9A0028] transition-colors"
           >
             {inquiryCtaLabel}
           </button>

@@ -111,7 +111,7 @@ export function ProductCard({ product, onWishlist, isWishlisted, className }: Pr
           {product.name}
         </h3>
         <div className="mt-auto flex items-center justify-between">
-          <span className="text-sm font-medium text-primary">
+          <span className="text-sm font-medium text-[#800020]">
             {product.priceLabel || formatPrice(product.price)}
           </span>
           <span className="text-[9px] text-muted-foreground tracking-wider">
