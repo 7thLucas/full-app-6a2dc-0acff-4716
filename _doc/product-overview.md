@@ -26,7 +26,7 @@ High-end, editorial, and trust-first. Positioned against generic marketplaces by
 
 ## Brand & Tone
 - **Voice**: Understated authority — never flashy, always confident
-- **Aesthetic**: Editorial, dark-anchored (near-black/slate) with warm gold accents
+- **Aesthetic**: Editorial, jewel-toned — royal purple backgrounds, old gold accents, silver secondary tones, blood maroon for CTAs and price signals
 - **Feel**: The world's most tasteful watch boutique, in your pocket
 
 ## Target Metrics & Assumptions (to be validated post-launch)
