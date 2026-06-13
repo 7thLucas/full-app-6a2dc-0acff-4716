@@ -1,7 +1,7 @@
 # Luxury Watch & Wallet App
 
 ## Product
-A premium curated platform for luxury watch and wallet enthusiasts — a single destination to discover, browse, and acquire fine timepieces and leather goods from the world's leading brands.
+A premium demand-generation platform for luxury watches and wallets — connecting high-end sellers directly with high-income buyers (athletes, musicians, and Hollywood millionaires) through a curated, editorial-grade mobile experience.
 
 ## Users
 - **Athletes & Musicians** — high-income earners who treat luxury watches and wallets as personal statements and status signals; brand-conscious, impulse-capable, and deeply image-aware
