@@ -42,7 +42,7 @@ export type TDefaultConfigurableData = {
 };
 
 export const defaultConfigurablesData: TDefaultConfigurableData = {
-  appName: "Sylph",
+  appName: "Renard's",
   logoUrl: "FILL_LOGO_URL_HERE",
   brandColor: {
     primary: "#C9A96E",
@@ -51,7 +51,7 @@ export const defaultConfigurablesData: TDefaultConfigurableData = {
   },
   tagline: "Rare. Restrained. Yours.",
   aboutText:
-    "Sylph is the definitive destination for discerning collectors of luxury watches and wallets — curated pieces from the world's most storied maisons, presented with the editorial depth they deserve.",
+    "Renard's is the definitive destination for discerning collectors of luxury watches and wallets — curated pieces from the world's most storied maisons, presented with the editorial depth they deserve.",
   heroHeading: "The Art of Timekeeping",
   heroSubheading:
     "Curated timepieces and leather goods for those who understand the weight of a well-chosen object.",
@@ -68,7 +68,7 @@ export const defaultConfigurablesData: TDefaultConfigurableData = {
   showEditorialSection: true,
   showWishlistFeature: true,
   itemsPerPage: 12, // fill it here
-  footerText: "© 2026 Sylph. All rights reserved. Curated for the discerning few.",
+  footerText: "© 2026 Renard's. All rights reserved. Curated for the discerning few.",
   socialLinks: {
     instagram: "", // fill it here
     twitter: "", // fill it here

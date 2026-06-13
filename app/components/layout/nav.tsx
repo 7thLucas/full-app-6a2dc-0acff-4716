@@ -74,7 +74,7 @@ export function TopBar({
   transparent?: boolean;
 }) {
   const { config } = useConfigurables();
-  const appName = config?.appName ?? "Sylph";
+  const appName = config?.appName ?? "Renard's";
 
   return (
     <header

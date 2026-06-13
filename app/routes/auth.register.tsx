@@ -38,7 +38,7 @@ export default function RegisterRoute() {
     <div className="min-h-screen bg-background flex flex-col items-center justify-center px-4">
       <div className="mb-8 text-center">
         <h1 className="text-2xl font-serif text-foreground tracking-wider">
-          {config?.appName ?? "Sylph"}
+          {config?.appName ?? "Renard's"}
         </h1>
         <p className="text-muted-foreground text-sm mt-1">{config?.tagline ?? "Rare. Restrained. Yours."}</p>
       </div>

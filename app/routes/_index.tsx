@@ -48,7 +48,7 @@ export default function HomePage() {
   const catalogHeading = loading ? "" : (config?.catalogHeading ?? "The Collection");
   const editorialHeading = loading ? "" : (config?.editorialHeading ?? "From the Maisons");
   const showEditorial = loading ? true : (config?.showEditorialSection ?? true);
-  const appName = loading ? "Sylph" : (config?.appName ?? "Sylph");
+  const appName = loading ? "Renard's" : (config?.appName ?? "Renard's");
 
   return (
     <PageLayout topTransparent className="pt-0">

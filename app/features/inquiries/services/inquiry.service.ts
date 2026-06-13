@@ -22,8 +22,8 @@ export class InquiryService {
       if (contactEmail && data.email) {
         await EmailService.sendEmail({
           to: data.email,
-          subject: `Your Sylph Inquiry — ${data.productBrand} ${data.productName}`,
-          content: `Dear ${data.name},\n\nThank you for your inquiry regarding the ${data.productBrand} ${data.productName}.\n\nOur specialists will be in touch within 24 hours to discuss this piece with you.\n\nWith regards,\nThe Sylph Team`,
+          subject: `Your Renard's Inquiry — ${data.productBrand} ${data.productName}`,
+          content: `Dear ${data.name},\n\nThank you for your inquiry regarding the ${data.productBrand} ${data.productName}.\n\nOur specialists will be in touch within 24 hours to discuss this piece with you.\n\nWith regards,\nThe Renard's Team`,
         });
       }
 
@@ -31,7 +31,7 @@ export class InquiryService {
       if (contactEmail) {
         await EmailService.sendEmail({
           to: contactEmail,
-          subject: `New Sylph Inquiry: ${data.productBrand} ${data.productName}`,
+          subject: `New Renard's Inquiry: ${data.productBrand} ${data.productName}`,
           content: `New inquiry received.\n\nProduct: ${data.productBrand} ${data.productName} (ID: ${data.productId})\nFrom: ${data.name} <${data.email}>${data.phone ? `\nPhone: ${data.phone}` : ""}\n\nMessage:\n${data.message || "(none)"}`,
         });
       }

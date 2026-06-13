@@ -52,7 +52,7 @@ export default function ProfilePage() {
   const { isAuthenticated, username, email, inquiryCount, collectionCount } =
     useLoaderData<LoaderData>();
   const { config, loading } = useConfigurables();
-  const appName = loading ? "Sylph" : (config?.appName ?? "Sylph");
+  const appName = loading ? "Renard's" : (config?.appName ?? "Renard's");
   const tagline = loading ? "Rare. Restrained. Yours." : (config?.tagline ?? "Rare. Restrained. Yours.");
   const footerText = loading ? "" : (config?.footerText ?? "");
 

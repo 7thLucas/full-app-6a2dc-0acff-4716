@@ -66,10 +66,10 @@ async function registerModuleRoutes(): Promise<void> {
 // Register auto-discovered module routes
 await registerModuleRoutes();
 
-// Register Sylph feature routes
+// Register Renard's feature routes
 router.use(productRoutes);
 router.use(inquiryRoutes);
 router.use(collectionRoutes);
-logger.info("Sylph feature routes registered");
+logger.info("Renard's feature routes registered");
 
 export default router;
