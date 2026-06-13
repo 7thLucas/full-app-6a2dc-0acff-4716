@@ -1,0 +1,67 @@
+<style>
+  .mode-portrait .sl-ops-grid { grid-template-columns: repeat(1,1fr) !important; }
+  .mode-portrait .sl-metric-row { grid-template-columns: repeat(1,1fr) !important; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-10">
+
+    <!-- Header -->
+    <div class="flex items-start justify-between mb-5">
+      <div>
+        <span class="text-xs font-semibold uppercase tracking-widest" style="color:#B45309;">North Star Metric</span>
+        <h2 class="text-slate-900 text-3xl font-bold mt-1">Weekly Verified Operations</h2>
+      </div>
+      <span class="text-xs font-semibold px-3 py-1.5 rounded-full flex-shrink-0 ml-4" style="background:#FEF3C7;color:#92400E;border:1px solid #FDE68A;">
+        Projected — based on your inputs
+      </span>
+    </div>
+
+    <!-- Operation definitions -->
+    <div class="sl-ops-grid grid grid-cols-2 gap-4 mb-4">
+      <div class="bg-slate-50 border border-slate-100 rounded-xl p-5">
+        <span class="text-xs font-bold uppercase tracking-widest" style="color:#B45309;">Operation 1</span>
+        <h3 class="text-slate-900 font-bold mt-1 text-sm">Item Inquiry Submitted</h3>
+        <p class="text-slate-500 text-xs mt-2 leading-relaxed">A buyer completes and sends a purchase inquiry for a listed luxury piece — the core revenue-generating action.</p>
+      </div>
+      <div class="bg-slate-50 border border-slate-100 rounded-xl p-5">
+        <span class="text-xs font-bold uppercase tracking-widest" style="color:#B45309;">Operation 2</span>
+        <h3 class="text-slate-900 font-bold mt-1 text-sm">Item Saved to Collection</h3>
+        <p class="text-slate-500 text-xs mt-2 leading-relaxed">A collector logs an owned piece or wishlists an item — the engagement signal that drives repeat sessions and acquisition intent.</p>
+      </div>
+    </div>
+
+    <!-- Formula + projections block -->
+    <div class="bg-slate-900 rounded-2xl p-7 flex-1 flex flex-col justify-between" style="min-height:0;">
+      <div>
+        <span class="text-xs font-semibold uppercase tracking-widest" style="color:#F59E0B;">Projected Weekly Volume — Arithmetic</span>
+        <div class="flex flex-wrap items-center gap-x-3 gap-y-2 mt-4 text-sm">
+          <span class="text-xs font-bold px-3 py-1 rounded-full" style="background:#F59E0B;color:#1E293B;">Assumption — adjust</span>
+          <span class="text-white font-mono">50 active users</span>
+          <span class="text-slate-500">×</span>
+          <span class="text-xs font-bold px-3 py-1 rounded-full" style="background:#F59E0B;color:#1E293B;">Assumption — adjust</span>
+          <span class="text-white font-mono">2 ops / user / week</span>
+          <span class="text-slate-500">=</span>
+          <span class="font-bold text-2xl" style="color:#F59E0B;">100 verified ops / week</span>
+        </div>
+      </div>
+
+      <div class="sl-metric-row grid grid-cols-3 gap-6 mt-5 pt-5" style="border-top:1px solid #334155;">
+        <div>
+          <div class="font-bold text-3xl" style="color:#F59E0B;">100</div>
+          <div class="text-slate-400 text-xs mt-1">ops / week (projected)</div>
+        </div>
+        <div>
+          <div class="font-bold text-3xl" style="color:#F59E0B;">5,200</div>
+          <div class="text-slate-400 text-xs mt-1">ops / year</div>
+          <div class="text-xs mt-0.5" style="color:#475569;">(100 × 52 weeks)</div>
+        </div>
+        <div>
+          <div class="font-bold text-3xl" style="color:#F59E0B;">200 hrs</div>
+          <div class="text-slate-400 text-xs mt-1">research saved / week</div>
+          <div class="text-xs mt-0.5" style="color:#475569;">(100 ops × 2 hrs saved each)</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
