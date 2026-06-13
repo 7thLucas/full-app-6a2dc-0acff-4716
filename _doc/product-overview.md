@@ -4,9 +4,9 @@
 A premium curated platform for luxury watch and wallet enthusiasts — a single destination to discover, browse, and acquire fine timepieces and leather goods from the world's leading brands.
 
 ## Users
-- **Collectors & Enthusiasts** — building or curating a personal collection; need provenance depth, authentication signals, and editorial context
-- **Aspirational Buyers** — high-intent shoppers researching and comparing before a considered luxury purchase
-- **Gift Shoppers** — buyers seeking premium gifts for significant occasions who need curation and editorial guidance
+- **Athletes & Musicians** — high-income earners who treat luxury watches and wallets as personal statements and status signals; brand-conscious, impulse-capable, and deeply image-aware
+- **Hollywood Millionaires** — entertainment industry men (actors, producers, executives) who curate their personal image and need the right accessory for every moment and occasion
+- **High-Net-Worth Gift Buyers** — men within the same demographic buying premium timepieces and leather goods as lifestyle expressions or significant gifts for peers
 
 ## Problem
 Luxury goods discovery is fragmented. Collectors and buyers navigate multiple dealer sites, auction houses, and social channels just to find and compare authentic pieces. No single digital space delivers both the breadth of selection and the editorial depth that a discerning luxury audience expects. Authentication uncertainty further erodes purchase confidence at the moment it matters most.
