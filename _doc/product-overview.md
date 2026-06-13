@@ -12,14 +12,14 @@ A premium demand-generation platform for luxury watches and wallets — connecti
 Luxury goods discovery is fragmented. Collectors and buyers navigate multiple dealer sites, auction houses, and social channels just to find and compare authentic pieces. No single digital space delivers both the breadth of selection and the editorial depth that a discerning luxury audience expects. Authentication uncertainty further erodes purchase confidence at the moment it matters most.
 
 ## Solution
-A single, beautifully designed app bringing curated luxury watches and wallets together — with rich product pages, brand editorial stories, personal wishlists, and a seamless path from discovery to purchase inquiry.
+A single, beautifully designed app that puts curated luxury watches and wallets directly in front of buyers who can afford them — with a frictionless purchase inquiry flow as the primary action, supported by editorial product pages, brand storytelling, and personal wishlists.
 
 ## Key Features (MVP)
-1. **Curated Product Catalog** — watches and wallets, filterable by brand, category, price range, and style
-2. **Rich Product Detail Pages** — high-resolution imagery, full specs, craftsmanship notes, and provenance documentation
-3. **Personal Wishlist & Collection Tracker** — log owned pieces and save aspirational items in one private vault
+1. **Purchase Inquiry Flow** — the hero feature: a seamless, low-friction path from product discovery to direct purchase inquiry, generating qualified leads for sellers
+2. **Curated Product Catalog** — watches and wallets, filterable by brand, category, price range, and style; every item earns its place
+3. **Rich Product Detail Pages** — high-resolution imagery, full specs, craftsmanship notes, and provenance documentation
 4. **Brand Editorial Content** — editorial stories behind each maison: history, signature styles, and the craft defining every great piece
-5. **Purchase Inquiry Flow** — a seamless, low-friction path from product discovery to direct purchase inquiry
+5. **Personal Wishlist & Collection Tracker** — log owned pieces and save aspirational items in one private vault
 
 ## Positioning
 High-end, editorial, and trust-first. Positioned against generic marketplaces by offering a boutique-level digital experience — clean presentation, product stories, and a focus on authenticity and craftsmanship that mass platforms cannot match.
